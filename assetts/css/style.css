@@ -1,0 +1,92 @@
+/* --------------------------------Fonts */
+
+
+/* h2{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 100%;
+    float: right;
+    letter-spacing: 4px;
+} */
+
+body {
+    font-family: 'Raleway' sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+/* --------------------------------Header section */
+
+
+.header a {
+    text-decoration: none;
+}
+
+.bg-dark {
+    background-color: #9bdb91!important;
+}
+
+.logo {
+    font-family: 'Indie Flower', sans-serif;
+    color: #fff;
+    font-size: 300%;
+    letter-spacing: 4px;
+    margin-left: 40px;
+    padding: 20 0 20 0;
+    text-align: left;
+}
+
+
+.nav-item {
+    color: #fff;
+    text-align: right;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+    font-family: 'Raleway';
+    font-size: 150%;
+    font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-family: 'Raleway';
+    font-size: 150%;
+    font-weight: 600;
+}
+
+.dropdown-menu.show {
+    display: block;
+    padding: inherit;
+}
+
+.dropdown-item {
+    width: 100%;
+    padding: 1rem 1rem;
+    clear: both;
+    font-family: 'Raleway';
+    font-weight: 600;
+    color: #fff;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #94d48a;
+    border: 0;
+}
+
+#menu {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 120%;
+    list-style-type: none;
+}
+
+#menu li {
+    float: right;
+    margin-right: 40px;
+}
+
+#menu #logo {
+    line-height: 75px;
+}
