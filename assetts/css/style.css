@@ -75,18 +75,3 @@ body {
     border: 0;
 }
 
-#menu {
-    font-family: 'Raleway', sans-serif;
-    color: #fff;
-    font-size: 120%;
-    list-style-type: none;
-}
-
-#menu li {
-    float: right;
-    margin-right: 40px;
-}
-
-#menu #logo {
-    line-height: 75px;
-}
