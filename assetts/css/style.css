@@ -1,13 +1,21 @@
 /* --------------------------------Fonts */
 
+h1 {
+    font-family: 'Indie Flower', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    float: left;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 7px #111111;
+}
 
-/* h2{
+h2 {
     font-family: 'Raleway', sans-serif;
     color: #fff;
     font-size: 100%;
     float: right;
     letter-spacing: 4px;
-} */
+}
 
 body {
     font-family: 'Raleway' sans-serif;
@@ -17,61 +25,71 @@ body {
 
 /* --------------------------------Header section */
 
-
-.header a {
-    text-decoration: none;
+header {
+    background-color: #9bdb91;
+    height: 95px;
 }
 
-.bg-dark {
-    background-color: #9bdb91!important;
-}
-
-.logo {
-    font-family: 'Indie Flower', sans-serif;
-    color: #fff;
-    font-size: 300%;
-    letter-spacing: 4px;
+#logo {
+    float: left;
     margin-left: 40px;
-    padding: 20 0 20 0;
-    text-align: left;
+    margin-top: 10px;
 }
 
+#menu {
+    font-family: 'Raleway', sans-serif;
+    list-style-type: none;
+    font-size: 100%;
+    display: inline;
+    text-shadow: 1px 1px 7px #111111;
+}
+
+#logo, #menu {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 40px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar {
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.navbar a {
+    font-family: 'Raleway' sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 1px 1px 7px #111111;
+}
+
+.navbar-light {
+    background-color: #9bdb91;
+}
 
 .nav-item {
-    color: #fff;
-    text-align: right;
+    font-family: 'Raleway', sans-serif;
 }
 
-.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
-    color: #fff;
-    font-family: 'Raleway';
-    font-size: 150%;
-    font-weight: 600;
+.dropdown-menu {
+    position: relative;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #9bdb91;
+    background-clip: padding-box;
 }
-
-.navbar-dark .navbar-nav .nav-link {
-    color: #fff;
-    font-family: 'Raleway';
-    font-size: 150%;
-    font-weight: 600;
-}
-
-.dropdown-menu.show {
-    display: block;
-    padding: inherit;
-}
-
-.dropdown-item {
-    width: 100%;
-    padding: 1rem 1rem;
-    clear: both;
-    font-family: 'Raleway';
-    font-weight: 600;
-    color: #fff;
-    text-align: inherit;
-    text-decoration: none;
-    white-space: nowrap;
-    background-color: #94d48a;
-    border: 0;
-}
-
