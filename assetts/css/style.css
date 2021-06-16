@@ -24,36 +24,61 @@ body {
     color: black;
 }
 
+
 /* --------------------------------Header section */
 
 #logo {
+    font-family: 'Indie Flower', sans-serif;
+    color: #fff;
+    font-size: 50px;
     float: left;
-    margin-left: 120px;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 7px #111111;
+    float: left;
+    margin-left: 60px;
     margin-top: 10px;
+    white-space: pre-wrap;
+}
+
+.bg-dark {
+    background-color: #53e058!important;
 }
 
 .navbar {
     margin-bottom: 0;
     border: 0;
     width: 100%;
- }
+}
 
-.navbar .navbar-nav a {
-    font-family: 'Raleway' sans-serif;
+.navbar-nav {
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 200%;
+    text-shadow: 1px 1px 7px #111111;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-right: 60px;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1rem;
+    clear: both;
     font-size: 150%;
     font-weight: 600;
     color: #fff;
-    text-shadow: 1px 1px 7px #111111;
-}
-
-.bg-light {
-    background-color: #9bdb91 !important;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
 }
 
 .dropdown-menu {
-    position: relative;
     z-index: 1000;
-    display: none;
     min-width: 10rem;
     padding: .5rem 0;
     margin: 0;
@@ -61,12 +86,13 @@ body {
     color: #fff;
     text-align: left;
     list-style: none;
-    background-color: #9bdb91;
+    background-color: #53e058;
     background-clip: padding-box;
+    border: none;
 }
 
-/* --------------------------------Footer section */
 
+/* --------------------------------Footer section */
 
 .footer {
     background-color: #79d47b;
@@ -84,7 +110,7 @@ body {
 
 .social-networks i {
     color: #fff;
-  }
+}
 
 a {
     color: #f8f9fa;
