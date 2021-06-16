@@ -92,16 +92,33 @@ body {
 }
 
 
+/* --------------------------------Body section */
+
+
 /* --------------------------------Footer section */
 
 .footer {
-    background-color: #79d47b;
+    font-family: 'Raleway';
+    color: #fff;
+    text-shadow: 1px 1px 7px #111111;
+    background-color: #53e058;
     margin: 0;
     height: 95px;
 }
 
+.h5,
+h5 {
+    text-align: center;
+    font-size: 1.25rem;
+    padding-top: 20px;
+    margin-left: 15px;
+}
+
 .social-networks {
     text-align: center;
+    font-size: 25px;
+    letter-spacing: 10px;
+    margin-top: -5px;
 }
 
 .social-networks li {
@@ -112,7 +129,7 @@ body {
     color: #fff;
 }
 
-a {
+.social-networks a {
     color: #f8f9fa;
     text-decoration: none;
 }
