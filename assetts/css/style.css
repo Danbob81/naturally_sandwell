@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
 /* --------------------------------Fonts */
 
 h1 {
@@ -38,13 +45,6 @@ body {
     margin-left: 60px;
     margin-top: 10px;
     white-space: pre-wrap;
-}
-
-.fa-pagelines:before {
-    content: "\f18c";
-    font-size: 35px;
-    color: #fff;
-    text-shadow: 2px 2px 7px #111111;
 }
 
 .bg-dark {
@@ -101,11 +101,17 @@ body {
 
 /* --------------------------------Body section */
 
-img,
-svg {
-    vertical-align: middle;
-    width: 100%;
+.home-background {
+    height: 610px;
+    background: url('../images/park_pond.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 
