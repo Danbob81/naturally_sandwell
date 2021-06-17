@@ -16,14 +16,15 @@ h1 {
     text-shadow: 2px 2px 7px #111111;
 }
 
-h2 {
+
+/* h2 {
     font-family: 'Raleway', sans-serif;
     color: #fff;
     font-size: 100%;
     float: right;
     letter-spacing: 4px;
     text-shadow: 2px 2px 7px #111111;
-}
+} */
 
 body {
     font-family: 'Raleway' sans-serif;
@@ -114,6 +115,68 @@ body {
     position: relative;
 }
 
+.home-background,
+.image-overlay {
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 150%;
+    text-shadow: 1px 1px 7px #111111;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+#meet-up {
+    background-image: url("../images/bluebells.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#meet-up div {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .6);
+    width: 24%;
+    height: 300px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    margin: 6px;
+}
+
+
+/* #meet-up h2 {
+    color: #fafafa;
+} */
+
+
+/* #meet-up {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#meet-up .meet-up-info {
+    font-family: 'Raleway';
+    color: #fff;
+    background-color: rgba(0, 0, 0, .6);
+    width: 24%;
+    height: 300px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    margin: 4px;
+}
+
+#meet-up h2 {
+    font-size: 30px;
+} */
+
 
 /* --------------------------------Footer section */
 
@@ -153,3 +216,6 @@ h5 {
     color: #f8f9fa;
     text-decoration: none;
 }
+
+
+/* --------------------------------Media Queries */
