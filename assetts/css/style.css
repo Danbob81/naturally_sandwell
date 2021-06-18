@@ -16,18 +16,16 @@ h1 {
     text-shadow: 2px 2px 7px #111111;
 }
 
+h2,
+h3 {
+    font-family: 'Indie Flower', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
-/* h2 {
+p {
     font-family: 'Raleway', sans-serif;
-    color: #fff;
-    font-size: 100%;
-    float: right;
-    letter-spacing: 4px;
-    text-shadow: 2px 2px 7px #111111;
-} */
-
-body {
-    font-family: 'Raleway' sans-serif;
     font-weight: 600;
     color: black;
 }
@@ -144,10 +142,36 @@ body {
 /* -------------About */
 
 #join {
-    font-family: 'Raleawy', sans-serif;
+    font-family: 'Indie Flower', sans-serif;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+.why-join-left {
+    padding: 30px 60px 30px 60px;
+    width: 33%;
+    float: right;
+    text-align: left;
+    margin-left: auto;
+}
+
+.why-join-center {
+    padding: 30px 60px 30px 60px;
+    text-align: center;
+}
+
+.why-join-right {
+    padding: 30px 60px 30px 60px;
+    width: 33%;
+    float: left;
+    text-align: right;
+    margin-right: auto;
+}
+
+.join-image {
+    border-radius: 50%;
+    text-align: center;
 }
 
 
@@ -160,6 +184,7 @@ body {
     background-position: center;
     width: 100%;
     overflow: hidden;
+    margin-top: 10px;
 }
 
 #meet-up div {
@@ -171,7 +196,7 @@ body {
     float: left;
     padding: 20px;
     text-align: center;
-    margin: 6px;
+    margin: 10px 0px 10px 10px;
 }
 
 #meet-up a {
