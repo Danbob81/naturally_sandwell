@@ -98,6 +98,15 @@ p {
     border: none;
 }
 
+.collapse:hover {
+    color: #53e058;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+    color: #53e058;
+}
+
 
 /* --------------------------------Body section */
 
@@ -199,6 +208,28 @@ p {
     padding: 20px;
 }
 
+.btn-more {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    border: none;
+}
+
+.btn-more:hover {
+    color: #53e058;
+}
+
+.btn-more:after {
+    border: none;
+}
+
+
+/* #meet-hr {
+    width: 75px;
+    height: 5px;
+    color: #fff;
+    text-align: center;
+} */
+
 
 /* -------------Park Info*/
 
@@ -262,6 +293,44 @@ h5 {
 .social-networks a {
     color: #f8f9fa;
     text-decoration: none;
+}
+
+li i:hover {
+    color: #53e058;
+}
+
+
+/* --------------------------------Modals */
+
+.modal-header {
+    font-family: 'Indie Flower', sans-serif;
+    color: #fff;
+    text-shadow: 1px 1px 7px #111111;
+    background-color: #53e058;
+}
+
+.modal-body {
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+}
+
+.modal-body a {
+    color: black;
+}
+
+.modal-body a:hover {
+    color: #53e058;
+}
+
+.modal-footer {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-shadow: 1px 1px 7px #111111;
+    background-color: #53e058;
+}
+
+.modal-footer p {
+    color: #fff;
 }
 
 
