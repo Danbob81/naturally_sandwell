@@ -49,7 +49,66 @@
 
     <!-- Sign Up Form -->
     <div class="container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>Sign Up</h2>
+                <form>
 
+                    <fieldset>
+                        <legend>Register Your Interest</legend>
+                        <div class="mb-3">
+
+                            <label for="firstName" class="first-name">Name:</label>
+                            <input type="text" class="form-control" id="first-name" placeholder="First Name" aria-describedby="firstName" required>
+                            <input type="text" class="form-control" id="last-name" placeholder="Last Name" aria-describedby="lastName" required>
+                            <br>
+                            <label for="email" class="form-label">Email address:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email" aria-describedby="emailHelp" required>
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <P>To help us plan future events and to be aware of any special accomodations, please answer the following:</P>
+
+                            <select id="age" name="age" aria-label="select age">
+                                <option selected>Age</option>
+                                <option value="Under 20">Under 20</option>
+                                <option value="20-29">20-29</option>
+                                <option value="30-39">30-39</option>
+                                <option value="40-49">40-49</option>
+                                <option value="50-59">50-59</option>
+                                <option value="60+">60+</option>
+                            </select>
+                            <div id="disclaimer" class="form-text">Please be aware, under 16's must be accompanied by an adult.</div>
+                            <p>Do you require any special accomodations?<br>(i.e. wheelchair access)</p>
+                            <input id="yes" type="radio" name="needs" value="yes">
+                            <label for="yes">Yes</label>
+                            <br>
+                            <input id="no" type="radio" name="needs" value="no">
+                            <label for="no">No</label>
+                            <br>
+                            <label for="more-info">If yes, please provide details here:</label>
+                            <br>
+                            <textarea name="moreInfo" id="more-info" placeholder="Details:" rows="4" cols="40"></textarea>
+                            <br>
+
+                            <br>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="check1">
+                            <label class="form-check-label" for="Cceck1">I would like to receive emails from Naturally Sandwell about related news and events.</label>
+                        </div>
+                    </fieldset>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+        </div>
     </div>
 
 
