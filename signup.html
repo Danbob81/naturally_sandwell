@@ -57,16 +57,74 @@
         </div>
     </div>
 
-    <div class="container-fluid form-section">
-        <div class="row">
-            <div class="col signup-form">
+    <form class="row signup-form" method="POST" action="#">
+        <div class="col-12">
+            <h3>Register Your Interest</h3>
+        </div>
+        <div class="col-md-6">
+            <label for="firstName" class="first-name">First Name:</label>
+            <br>
+            <input type="text" class="text-input" id="first-name" placeholder="" aria-describedby="firstName" required>
+        </div>
+        <div class="col-md-6">
+            <label for="lastName" class="last-name">Last Name:</label>
+            <br>
+            <input type="text" class="text-input" id="last-name" placeholder="" aria-describedby="lastName" required>
+        </div>
+        <div class="col-12">
+            <label for="email" class="form-label">Email address:</label>
+            <br>
+            <input type="email" class="text-input" id="email" placeholder="" aria-describedby="emailHelp" required>
+        </div>
+        <div class="col-12">
+            <P>To help us plan future events and to be aware of any special accomodations, please answer the following:</P>
+        </div>
+        <div class="col-md-6">
+            <select id="age" name="age" aria-label="select age">
+                                <option selected>Age</option>
+                                <option value="Under 20">Under 20</option>
+                                <option value="20-29">20-29</option>
+                                <option value="30-39">30-39</option>
+                                <option value="40-49">40-49</option>
+                                <option value="50-59">50-59</option>
+                                <option value="60+">60+</option>
+            </select>
+            <br>
+            <p>Do you require any special accomodations? (i.e. wheelchair access)</p>
+            <input id="yes" type="radio" name="needs" value="yes">
+            <label for="yes">Yes</label>
+            <br>
+            <input id="no" type="radio" name="needs" value="no">
+            <label for="no">No</label>
+        </div>
+        <div class="col-md-6">
+            <label for="more-info">If yes, please provide details here:</label>
+            <br>
+            <textarea name="moreInfo" id="more-info" placeholder="Details:"></textarea>
+            <br>
+        </div>
+        <div class="col-12">
+            <div id="disclaimer" class="form-text">*Please be aware, under 16's must be accompanied by an adult.</div>
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
 
-            </div>
+            <input type="checkbox" class="form-check-input" id="check1">
+            <label class="form-check-label" for="Cceck1">I would like to receive emails from Naturally Sandwell about related news and events.</label>
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+
+    <!-- <div class="container-fluid form-section">
+        <div class="row"> -->
+    <!-- <div class="col"></div>
+
             <div class="col" style="padding-left: 0px; padding-right: 0px;">
                 <form method="post" action="#" class="signup-form">
+                    <h3>Register Your Interest</h3>
                     <fieldset>
                         <legend>
-                            <h3>Register Your Interest</h3>
+
                         </legend>
                         <div class="mb-3">
 
@@ -80,6 +138,14 @@
                             <input type="email" class="text-input" id="email" placeholder="Email" aria-describedby="emailHelp" required>
 
                         </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="padding-left: 0px; padding-right: 0px;">
+                <form method="post" action="#" class="signup-form">
+                    <fieldset>
                         <div class="mb-3">
                             <P>To help us plan future events and to be aware of any special accomodations, please answer the following:</P>
 
@@ -107,24 +173,33 @@
                             <br>
 
                             <br>
+
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="padding-left: 0px; padding-right: 0px;">
+                <form method="post" action="#" class="signup-form">
+                    <fieldset>
+                        <div class="mb-3 form-check">
                             <div id="disclaimer" class="form-text">*Please be aware, under 16's must be accompanied by an adult.</div>
                             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
 
-                        </div>
-
-                        <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" id="check1">
                             <label class="form-check-label" for="Cceck1">I would like to receive emails from Naturally Sandwell about related news and events.</label>
                         </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
                     </fieldset>
-                    <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
-            <div class="col signup-form">
-
-            </div>
         </div>
+
+        <div class="col"></div>
+
     </div>
+    </div> -->
 
     <hr class="divider">
 
