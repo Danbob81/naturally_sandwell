@@ -309,7 +309,7 @@ p {
     background-size: cover;
     background-position: center;
     padding: 10%;
-    /*    overflow: scroll; */
+    overflow: hidden;
 }
 
 .signup-form {
@@ -363,6 +363,11 @@ p {
     text-align: center;
 }
 
+#age {
+    background: rgb(255 255 255 / 81%);
+    color: #111;
+}
+
 .signup-form h2 {
     color: #fafafa;
     margin-bottom: 20px;
@@ -378,31 +383,37 @@ p {
     border-radius: 2px;
 }
 
-.btn-primary {
+.text-input:hover {
+    border-color: #53e058;
+    border-width: 2px;
+}
+
+#more-info:hover {
+    border-color: #53e058;
+    border-width: 2px;
+}
+
+#age:hover {
+    border-color: #53e058;
+    border-width: 2px;
+}
+
+.btn-green {
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    /* text-shadow: 1px 1px 7px #111111; */
     color: #fff;
     background-color: #53e058;
     border-color: #53e058;
 }
 
-#more-info {
-    background: rgb(255 255 255 / 81%);
-    color: #111;
-    width: 250px;
-    height: 80px;
-    margin: 5px 5px 20px;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-}
-
-#age {
-    background: rgb(255 255 255 / 81%);
-    color: #111;
-}
-
-.text-input:hover {
-    border-color: #53e058;
+.btn-green:hover {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    /* text-shadow: 1px 1px 7px #111111; */
+    color: #53e058;
+    background-color: #fff;
+    border-color: #fff;
 }
 
 .join-button {
@@ -419,6 +430,16 @@ p {
 .join-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
+}
+
+#more-info {
+    background: rgb(255 255 255 / 81%);
+    color: #111;
+    width: 250px;
+    height: 80px;
+    margin: 5px 5px 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 }
 
 
