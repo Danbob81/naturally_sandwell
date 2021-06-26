@@ -37,7 +37,7 @@ p {
 /* -------------Navbar */
 
 .bg-dark {
-    background-color: #53e058!important;
+    background-color: #368bd8!important;
 }
 
 .navbar {
@@ -93,7 +93,7 @@ p {
     color: #fff;
     text-align: left;
     list-style: none;
-    background-color: #53e058;
+    background-color: #358cd8;
     background-clip: padding-box;
     border: none;
 }
@@ -240,9 +240,13 @@ p {
 
 .park-quote {
     text-align: center;
-    padding: 40px 40px 40px 40px;
+    padding: 40px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.park-quote p {
+    text-align: center;
 }
 
 .park-info a {
@@ -277,7 +281,14 @@ p {
 
 /* -------------Carousel */
 
-#my-caraousel {
+.carousel {
+    position: relative;
+    width: 100%;
+    max-height: fit-content;
+}
+
+
+/* #my-caraousel {
     width: 100%;
     height: 400px;
 }
@@ -288,6 +299,7 @@ p {
     background-color: #11111161;
     background-position: center;
 }
+ */
 
 
 /* -------------Sign Up */
@@ -531,3 +543,28 @@ li i:hover {
 
 
 /* --------------------------------Media Queries */
+
+@media screen and (max-width: 992px) {
+    .no-show {
+        display: none;
+    }
+    .carousel {
+        position: relative;
+        width: 100%;
+        max-height: fit-content;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .navbar-brand {
+        font-family: 'Indie Flower', sans-serif;
+        font-size: 170%;
+        text-align: center;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 7px #111;
+        margin: 0px;
+    }
+    .bg-dark {
+        background-color: #358cd8!important;
+    }
+}
