@@ -47,7 +47,7 @@ This site is for like minded people who live in or around Sandwell, a part of *T
 
 ### **Wireframes**
 
-* Created using Balsamiq
+* Created using Balsamiq 
 
 
 ## **Testing**
@@ -55,9 +55,10 @@ This site is for like minded people who live in or around Sandwell, a part of *T
 ### **Validator Testing**
 
 * HTML
-    * W3C validator
+    * 7 errors were returned when passing through the official [W3C validator]()
+    * fixed all 7 errors, passed through the official [W3C validator]() again - no errors found
 * CSS
-    * (Jigsaw) validator
+    * No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator$link)
 
 ### **Unfixed Bugs**
 
