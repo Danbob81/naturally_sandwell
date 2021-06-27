@@ -65,6 +65,9 @@ This site is for like minded people who live in or around Sandwell, a part of *T
 ## **Deployment**
 
 
+Live link can be found here - https://danbob81.github.io/naturally_sandwell/
+
+
 ## **Credits**
 
 ### **Content**
