@@ -330,6 +330,14 @@ hr {
 }
 
 
+/* -------------Google Map */
+
+#map {
+    width: 100%;
+    height: 400px;
+}
+
+
 /* -------------Sign Up */
 
 .sign-up-title {
