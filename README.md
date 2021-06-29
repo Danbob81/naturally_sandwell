@@ -104,10 +104,10 @@ This site is for like minded people who live in or around Sandwell, a part of *T
 ## **Deployment**
 
 I deployed the site to Github Pages using the following process:
-* Click the Settings tab in the GitHub repository
-* Select Pages in the left hand menu
-* Under the heading of Source, select Master Branch from the drop-down menu
-* Click Save
+* Click the 'Settings' tab in the GitHub repository
+* Select 'Pages' in the left hand menu
+* Under the heading of 'Source', select 'Master Branch' from the drop-down menu
+* Click 'Save'
 
 Live link can be found here - https://danbob81.github.io/naturally_sandwell/
 
@@ -116,7 +116,7 @@ Live link can be found here - https://danbob81.github.io/naturally_sandwell/
 
 ### **Content**
 
-Information for 
+Information for: 
 * Bat Walk taken from [Bat Conservation Trust](https://www.bats.org.uk/resources/education-outreach-resources/bat-walks)
 * Dawn Chorus taken from [Wildlife Trust](https://www.wildlifetrusts.org/dawn-chorus-day)
 * Pond Dipping taken from [Woodland Trust](https://www.woodlandtrust.org.uk/blog/2019/08/how-to-pond-dip/?gclid=CjwKCAjwieuGBhAsEiwA1Ly_nRPgSnndYZpFEUdV7P2mAZ0IsRknQVebnS8_GyCNMKAO5xjS2cE_HRoCrR4QAvD_BwE&gclsrc=aw.ds)
