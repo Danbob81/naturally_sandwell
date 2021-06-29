@@ -5,7 +5,8 @@ This site is for like minded people who live in or around Sandwell, a part of *T
 ## **User Stories**
 
 ### **Home Page**
-* I want to see what the group is about and easily find out when and where I can participate in activities.
+* I want to see what the group is about and easily find out when and where I can participate in activities. 
+* Also to see what type of activities are available and who they are suitable for (i.e. age, accessibility)
 
 ### **Locations Page**
 * I want to find out about a particular location; where it is/how can I get there and what can I expect to find there.
@@ -17,38 +18,73 @@ This site is for like minded people who live in or around Sandwell, a part of *T
 
 ### **Existing Features**
 
-* *Header*
+* *Navigation Bar*
     * to contain the group logo and navigation bar which is to be the same on all pages in order to give a smooth user experience which links easily between all pages of the site.
+
+![Nav Bar](assetts/readme_items/navbar.PNG)
+
+* *Landing Page Image*
+    * a 'hero image' with information, as a text overlay, which will be a brief introduction to the group.
+
+![Hero Image](assetts/readme_items/hero.PNG)
+
+* *About Us*
+    * this section will give the user three benefits of joining the group, split into:
+        * Nature
+        * Health
+        * Social
+
+![About Us](assetts/readme_items/about.PNG)
+
+* *Meet Up*
+    * this section will provide details about upcoming events including location, date and time
+    * each item will link to further information in the form of a pop-up (modal) which will also include links to external sites
+    * to be kept updated with new and upcoming events
+
+![Meet Up](assetts/readme_items/meet.PNG)
+
 * *Footer*
     * to provide social media links; the same on all pages to give a smooth user experience
-* *Body*
-    * Home page
-        * a 'hero image' and information about the group
-        * details about upcoming events including location, date and time and link to further information in the form of a pop-up (modal)
-    * Locations page
-        * images of the location (using a carousel)
-        * information about the location including link(s) to external sites for further info. 
-        * Google map to show location
-    * Sign up page
-        * form to register - to include full name and email as required elements - phone number as optional element.
-        * submit button to link to additional page or pop-up modal to confirm form submission
 
-### **Features Left to Implement**
-* option to submit members photos to gallery
+![Footer](assetts/readme_items/footer.PNG)
 
-### **Typography**
+* *Locations*
+    * to show images of the location (using a carousel)
+    * this section is to provide information about the location including link(s) to external sites for further info.
+
+![Park location](assetts/readme_items/park.PNG)
+
+* *Map*
+    * the use of a Google map to show precise location which links externally to Google Maps so the user can find directions
+
+![Map](assetts/readme_items/map.PNG)
+
+
+* *Sign up page*
+    * form to register - to include full name and email as required elements - phone number as optional element
+    * additional section to the form to gain information such as age and if any special accomodations will be required by the user/group member such wheelchair access. To be clearly marked as an optional request to the user in order to gain information to help plan future events
+    * submit button to link to additional page or pop-up modal to confirm form submission
+
+![Join](assetts/readme_items/join.PNG)
+
+## **Features Left to Implement**
+* gallery section/page with option for members to submit their photos
+* additional locations to be added as the group grows
+
+## **Typography**
 * Fonts
     * fonts used are from [Google Fonts](https://fonts.google.com/)
-        * for headings - Indie Flower - https://fonts.google.com/specimen/Indie+Flower?query=indie#standard-styles
-        * for body text - Raleway - https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles
+        * for headings - [Indie Flower](https://fonts.google.com/specimen/Indie+Flower?query=indie#standard-styles)
+        * for body text - [Raleway](https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles)
 
 * Colours
     * I chose a mainly green colour scheme using [Adobe Color](https://color.adobe.com/create/color-wheel) - https://color.adobe.com/create/color-wheel#
     * I used the blue sky colour from the index.html background image as the colour for the header/navbar. To do this I used the colour dropper tool in Google Developer.
     * Main headings and writing over images I chose to use white and all other writing I chose black (over white background)
-### **Wireframes**
+## **Wireframes**
 
-* Created using Balsamiq 
+* Created using Balsamiq
+    * link to wireframes pdf [here](assetts/readme_items/naturally_sandwell_wireframe.pdf)
 
 
 ## **Testing**
@@ -99,7 +135,7 @@ Google map created using the following method:
 
 All icons used (including in the Footer) are from [Font Awesome](https://fontawesome.com/).
 
-I used [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) to help create site layout, occasionally referring back to [Grid](https://getbootstrap.com/docs/5.0/layout/grid/) & [Breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/) to help with the layout and responsivity across differnt screen sizes.
+I used [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) to help create site layout, occasionally referring back to [Grid](https://getbootstrap.com/docs/5.0/layout/grid/) & [Breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/) to help with the layout and responsivity across different screen sizes.
 
 I also used the following components:
 * [Navbar](https://getbootstrap.com/docs/5.0/components/navbar/)
@@ -108,8 +144,7 @@ I also used the following components:
 
 Instruction on 'Phone number' input in form section taken from [W3Schools](https://www.w3schools.com/tags/att_input_type_tel.asp).
 
-
-
+I referred back, occasionally, to Code Institute lessons to help with implementation of particular elements of code, specifically when creating the navigation bar and form sections.
 
 ### **Media**
 
