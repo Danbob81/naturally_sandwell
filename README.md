@@ -2,6 +2,8 @@
 
 This site is for like minded people who live in or around Sandwell, a part of *The Black Country* in the West Midlands, who love nature and wish to share their wildlife experiences with others in the local area. This site is designed to help fuel that passion by providing information to users about the wildlife that can be spotted near them and provide socialising opportunities with information about nature walks that they can join in with.
 
+![Naturally Sandwell](assetts/readme_items/responsive.PNG)
+
 ## **User Stories**
 
 ### **Home Page**
@@ -78,7 +80,7 @@ This site is for like minded people who live in or around Sandwell, a part of *T
         * for body text - [Raleway](https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles)
 
 * Colours
-    * I chose a mainly green colour scheme using [Adobe Color](https://color.adobe.com/create/color-wheel) - https://color.adobe.com/create/color-wheel#
+    * I chose a mainly green colour scheme using [Adobe Color](https://color.adobe.com/create/color-wheel)
     * I used the blue sky colour from the index.html background image as the colour for the header/navbar. To do this I used the colour dropper tool in Google Developer.
     * Main headings and writing over images I chose to use white and all other writing I chose black (over white background)
 ## **Wireframes**
