@@ -354,7 +354,7 @@ hr {
 
 .form-section {
     clear: left;
-    background: url("../images/sign-up.jpg") no-repeat;
+    background: url("../images/sign-up.JPG") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -457,7 +457,7 @@ hr {
 .confirmation {
     width: 100%;
     height: 100%;
-    background: url("../images/sign-up.jpg") no-repeat center center fixed;
+    background: url("../images/sign-up.JPG") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
