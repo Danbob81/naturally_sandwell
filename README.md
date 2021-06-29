@@ -38,13 +38,14 @@ This site is for like minded people who live in or around Sandwell, a part of *T
 
 ### **Typography**
 * Fonts
-    * fonts used are from Google Fonts
+    * fonts used are from [Google Fonts](https://fonts.google.com/)
         * for headings - Indie Flower - https://fonts.google.com/specimen/Indie+Flower?query=indie#standard-styles
         * for body text - Raleway - https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles
 
 * Colours
-    * I have chosen a mainly green colour scheme using Adobe Color - https://color.adobe.com/create/color-wheel#
-
+    * I chose a mainly green colour scheme using [Adobe Color](https://color.adobe.com/create/color-wheel) - https://color.adobe.com/create/color-wheel#
+    * I used the blue sky colour from the index.html background image as the colour for the header/navbar. To do this I used the colour dropper tool in Google Developer.
+    * Main headings and writing over images I chose to use white and all other writing I chose black (over white background)
 ### **Wireframes**
 
 * Created using Balsamiq 
@@ -64,6 +65,11 @@ This site is for like minded people who live in or around Sandwell, a part of *T
 
 ## **Deployment**
 
+I deployed the site to Github Pages using the following process:
+* Click the Settings tab in the GitHub repository
+* Select Pages in the left hand menu
+* Under the heading of Source, select Master Branch from the drop-down menu
+* Click Save
 
 Live link can be found here - https://danbob81.github.io/naturally_sandwell/
 
@@ -72,7 +78,48 @@ Live link can be found here - https://danbob81.github.io/naturally_sandwell/
 
 ### **Content**
 
+Information for 
+* Bat Walk taken from [Bat Conservation Trust](https://www.bats.org.uk/resources/education-outreach-resources/bat-walks)
+* Dawn Chorus taken from [Wildlife Trust](https://www.wildlifetrusts.org/dawn-chorus-day)
+* Pond Dipping taken from [Woodland Trust](https://www.woodlandtrust.org.uk/blog/2019/08/how-to-pond-dip/?gclid=CjwKCAjwieuGBhAsEiwA1Ly_nRPgSnndYZpFEUdV7P2mAZ0IsRknQVebnS8_GyCNMKAO5xjS2cE_HRoCrR4QAvD_BwE&gclsrc=aw.ds)
+* Woodland Walk taken from [National Trust](https://www.nationaltrust.org.uk/lists/woodland-walks) but some words changed to suit the context of this project
+
+Content about West Smethwick Park was written from information gained from the following sites:
+* [Sandwell MBC](https://www.sandwell.gov.uk/info/200248/parks_and_green_spaces/4033/west_smethwick_park)
+* [Urban Design and Building Services](https://www.udbs.co.uk/projects/west-smethwick-park.html)
+
+James T Chance quote was taken from the plaque on the Chance Monument inside West Smethwick Park.
+
+Google map created using the following method:
+* Open Google Maps and search 'West Smethwick Park'
+* Click 'Share'
+* From 'Share' pop-up, select 'Embed a map'
+* Select size from drop-down menu and click 'Copy html'
+* Paste copied code snippet into locations.html
+
+All icons used (including in the Footer) are from [Font Awesome](https://fontawesome.com/).
+
+I used [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) to help create site layout, occasionally referring back to [Grid](https://getbootstrap.com/docs/5.0/layout/grid/) & [Breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/) to help with the layout and responsivity across differnt screen sizes.
+
+I also used the following components:
+* [Navbar](https://getbootstrap.com/docs/5.0/components/navbar/)
+* [Modal](https://getbootstrap.com/docs/5.0/components/modal/)
+* [Carousel](https://getbootstrap.com/docs/5.0/components/carousel/)
+
+Instruction on 'Phone number' input in form section taken from [W3Schools](https://www.w3schools.com/tags/att_input_type_tel.asp).
+
+
+
+
 ### **Media**
+
+All images used throughout the site are my own (Daniel Higginson) work apart from:
+* [pavilion.jpg](assetts/images/pavilion.jpg) which was taken from [Sandwell MBC](https://www.sandwell.gov.uk/info/200248/parks_and_green_spaces/4033/west_smethwick_park)
+* [chance-monument.jpg](assetts/images/chance-monument.jpg) which was taken from the [West Smethwick Park](https://en.wikipedia.org/wiki/West_Smethwick_Park#/media/File:Chance_Monument_West_Smethwick_park_(4565999608).jpg) Wikipedia page (photograph taken by Tony Hisgett from Birmingham, UK)
+
+The [Plant Pot Parabolic](assetts/parabolic/plantpotparabolic.pdf) pdf was from [Nina Constable](https://www.ninaconstable.co.uk/plantpotparabolic).
+
+
 
 
 
