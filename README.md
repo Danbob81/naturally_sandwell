@@ -91,6 +91,11 @@ This site is for like minded people who live in or around Sandwell, a part of *T
 
 ## **Testing**
 
+Website tested using Chrome, Edge and Firefox as well as on mobile (using Chrome for Android).
+All tests passed.
+
+View results [here](assetts/readme_items/website_test_plan.pdf)
+
 ### **Validator Testing**
 
 * HTML
@@ -101,6 +106,7 @@ This site is for like minded people who live in or around Sandwell, a part of *T
 
 ### **Unfixed Bugs**
 
+None
 ## **Deployment**
 
 I deployed the site to Github Pages using the following process:
