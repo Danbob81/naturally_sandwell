@@ -156,7 +156,7 @@ I referred back, occasionally, to Code Institute lessons to help with implementa
 
 ### **Media**
 
-All images used throughout the site are my own (Daniel Higginson) work apart from:
+All images used throughout the site are my own work (Daniel Higginson) apart from:
 * [pavilion.jpg](assetts/images/pavilion.jpg) which was taken from [Sandwell MBC](https://www.sandwell.gov.uk/info/200248/parks_and_green_spaces/4033/west_smethwick_park)
 * [chance-monument.jpg](assetts/images/chance-monument.jpg) which was taken from the [West Smethwick Park](https://en.wikipedia.org/wiki/West_Smethwick_Park#/media/File:Chance_Monument_West_Smethwick_park_(4565999608).jpg) Wikipedia page (photograph taken by Tony Hisgett from Birmingham, UK)
 
