@@ -2,7 +2,7 @@
 
 This site is for like minded people who live in or around Sandwell, a part of *The Black Country* in the West Midlands, who love nature and wish to share their wildlife experiences with others in the local area. This site is designed to help fuel that passion by providing information to users about the wildlife that can be spotted near them and provide socialising opportunities with information about nature walks that they can join in with.
 
-![Naturally Sandwell](assetts/readme_items/responsive.PNG)
+![Naturally Sandwell](docs/readme_items/responsive.PNG)
 
 ## **User Stories**
 
@@ -23,12 +23,12 @@ This site is for like minded people who live in or around Sandwell, a part of *T
 * *Navigation Bar*
     * to contain the group logo and navigation bar which is to be the same on all pages in order to give a smooth user experience which links easily between all pages of the site.
 
-![Nav Bar](assetts/readme_items/navbar.PNG)
+![Nav Bar](docs/readme_items/navbar.PNG)
 
 * *Landing Page Image*
     * a 'hero image' with information, as a text overlay, which will be a brief introduction to the group.
 
-![Hero Image](assetts/readme_items/hero.PNG)
+![Hero Image](docs/readme_items/hero.PNG)
 
 * *About Us*
     * this section will give the user three benefits of joining the group, split into:
@@ -36,30 +36,30 @@ This site is for like minded people who live in or around Sandwell, a part of *T
         * Health
         * Social
 
-![About Us](assetts/readme_items/about.PNG)
+![About Us](docs/readme_items/about.PNG)
 
 * *Meet Up*
     * this section will provide details about upcoming events including location, date and time
     * each item will link to further information in the form of a pop-up (modal) which will also include links to external sites
     * to be kept updated with new and upcoming events
 
-![Meet Up](assetts/readme_items/meet.PNG)
+![Meet Up](docs/readme_items/meet.PNG)
 
 * *Footer*
     * to provide social media links; the same on all pages to give a smooth user experience
 
-![Footer](assetts/readme_items/footer.PNG)
+![Footer](docs/readme_items/footer.PNG)
 
 * *Locations*
     * to show images of the location (using a carousel)
     * this section is to provide information about the location including link(s) to external sites for further info.
 
-![Park location](assetts/readme_items/park.PNG)
+![Park location](docs/readme_items/park.PNG)
 
 * *Map*
     * the use of a Google map to show precise location which links externally to Google Maps so the user can find directions
 
-![Map](assetts/readme_items/map.PNG)
+![Map](docs/readme_items/map.PNG)
 
 
 * *Sign up page*
@@ -67,7 +67,7 @@ This site is for like minded people who live in or around Sandwell, a part of *T
     * additional section to the form to gain information such as age and if any special accomodations will be required by the user/group member such wheelchair access. To be clearly marked as an optional request to the user in order to gain information to help plan future events
     * submit button to link to additional page or pop-up modal to confirm form submission
 
-![Join](assetts/readme_items/join.PNG)
+![Join](docs/readme_items/join.PNG)
 
 ## **Features Left to Implement**
 * gallery section/page with option for members to submit their photos
@@ -86,7 +86,7 @@ This site is for like minded people who live in or around Sandwell, a part of *T
 ## **Wireframes**
 
 * Created using Balsamiq
-    * link to wireframes pdf [here](assetts/readme_items/naturally_sandwell_wireframe.pdf)
+    * link to wireframes pdf [here](docs/readme_items/naturally_sandwell_wireframe.pdf)
 
 
 ## **Testing**
@@ -94,7 +94,7 @@ This site is for like minded people who live in or around Sandwell, a part of *T
 Website tested using Chrome, Edge and Firefox as well as on mobile (using Chrome for Android).
 All tests passed.
 
-View results [here](assetts/readme_items/website_test_plan.pdf)
+View results [here](docs/readme_items/website_test_plan.pdf)
 
 ### **Validator Testing**
 
