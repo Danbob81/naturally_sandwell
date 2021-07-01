@@ -70,7 +70,7 @@ This site is for like minded people who live in or around Sandwell, a part of *T
 ![Join](docs/readme_items/join.PNG)
 
 ## **Features Left to Implement**
-* gallery section/page with option for members to submit their photos
+* members section with function to submit their own photos to a gallery and possible chat function
 * additional locations to be added as the group grows
 
 ## **Typography**
@@ -85,28 +85,87 @@ This site is for like minded people who live in or around Sandwell, a part of *T
     * Main headings and writing over images I chose to use white and all other writing I chose black (over white background)
 ## **Wireframes**
 
-* Created using Balsamiq
-    * link to wireframes pdf [here](docs/readme_items/naturally_sandwell_wireframe.pdf)
+I created the wireframes using Balsamiq
+* link to wireframes pdf [here](docs/readme_items/naturally_sandwell_wireframe.pdf)
 
+![Wireframes](docs/readme_items/wireframes.PNG)
+
+## **Technologies**
+
+* VSCode was used throughout for the creation of HTML and CSS code plus assetts folders and files.
+* Git and GitHub were used for the repository
+* [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) was used to help create site layout, occasionally referring back to [Grid](https://getbootstrap.com/docs/5.0/layout/grid/) & [Breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/) to help with the layout and responsivity across different screen sizes.
+    * Also used were the following Bootstrap components:
+        * [Navbar](https://getbootstrap.com/docs/5.0/components/navbar/)
+        * [Modal](https://getbootstrap.com/docs/5.0/components/modal/)
+        * [Carousel](https://getbootstrap.com/docs/5.0/components/carousel/)
+* All icons used (including in the Footer) are from [Font Awesome](https://fontawesome.com/)
+* Fonts used throughout are from [Google Fonts](https://fonts.google.com/)
+* [Google maps](https://www.google.com/maps/) used via the following method:
+    * Open Google Maps and search 'West Smethwick Park'
+    * Click 'Share'
+    * From 'Share' pop-up, select 'Embed a map'
+    * Select size from drop-down menu and click 'Copy html'
+    * Paste copied code snippet into locations.html
 
 ## **Testing**
 
-Website tested using Chrome, Edge and Firefox as well as on mobile (using Chrome for Android).
+I used the Chrome Developer Tool to simulate the different viewport sizes for desktop and laptop views, tablet views and mobile views. I used this throughout the development process as well as for testing the website once it was deployed to GitHub Pages.
+
+The deployed website was also tested using Chrome, Edge and Firefox as well as on mobile (using Chrome for Android).
+
+* Home page 
+    * opens as expected and navigation bar links between all pages as required
+    * all images load as they should
+    * all text appears clear and readable
+    * 'More Info' links work correctly with pop-up modal appearing as it should
+    * all text within modals appear clear and readable
+    * all links to external web pages open in a new tab as expected
+    * PDF download link in the 'Dawn Chorus' modal works as expected
+    * social media links in footer work as expected, opening external pages in new tab
+
+* Locations (West Smethwick Park) page
+    * opens as expected and navigation bar links between all pages as required
+    * all images load as they should (and scroll within carousel)
+    * all text appears clear and readable
+    * all links to external web pages open in a new tab as expected
+    * Google map opens as expected
+    * social media links in footer work as expected, opening external pages in new tab
+
+* Sign up page
+    * opens as expected and navigation bar links between all pages as required
+    * all images load as they should
+    * all text appears clear and readable
+    * all form elements work as expected
+    * form submit button links user to confirmation page
+    * social media links in footer work as expected, opening external pages in new tab
+
+* Confirmation page
+    * opens as expected when submit button activated in sign up form
+    * image loads as it should
+    * all text appears clear and readable
+    * 'Return to site' button links user back to sign up page as expected
+
+
+Black box testing was also carried out on the final deployed website.
+
 All tests passed.
+Results can be viewed [here](docs/readme_items/website_test_plan.pdf)
+### **Bugs**
 
-View results [here](docs/readme_items/website_test_plan.pdf)
+I noticed some unwanted layout changes when going to mobile view, particularly on the locations.html page, where the text pushed the carousel images out of place. The carousel images also didn't show fully on mobile screen. To overcome this I used media queries to adjust the layout at the smaller screen viewports.
 
+Another issue was with the navigation bar where the logo was pushed downwards in mobile view, taking up a higher proportion of screen space than was wanted. I used another media query to overcome this by adjusting the size and spacing at the smaller screen viewport.
 ### **Validator Testing**
 
 * HTML
-    * 7 errors were returned when passing through the official [W3C validator]()
-    * fixed all 7 errors, passed through the official [W3C validator]() again - no errors found
+    * 7 errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+![error one](docs/readme_items/validator_error1.PNG)
+![error one](docs/readme_items/validator_error2.PNG)
+    * fixed all 7 errors, passed through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanbob81.github.io%2Fnaturally_sandwell%2F) again - no errors found
 * CSS
-    * No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator$link)
+    * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
 
-### **Unfixed Bugs**
-
-None
 ## **Deployment**
 
 I deployed the site to Github Pages using the following process:
@@ -117,9 +176,7 @@ I deployed the site to Github Pages using the following process:
 
 Live link can be found here - https://danbob81.github.io/naturally_sandwell/
 
-
 ## **Credits**
-
 ### **Content**
 
 Information for: 
@@ -132,23 +189,7 @@ Content about West Smethwick Park was written from information gained from the f
 * [Sandwell MBC](https://www.sandwell.gov.uk/info/200248/parks_and_green_spaces/4033/west_smethwick_park)
 * [Urban Design and Building Services](https://www.udbs.co.uk/projects/west-smethwick-park.html)
 
-James T Chance quote was taken from the plaque on the Chance Monument inside West Smethwick Park.
-
-Google map created using the following method:
-* Open Google Maps and search 'West Smethwick Park'
-* Click 'Share'
-* From 'Share' pop-up, select 'Embed a map'
-* Select size from drop-down menu and click 'Copy html'
-* Paste copied code snippet into locations.html
-
-All icons used (including in the Footer) are from [Font Awesome](https://fontawesome.com/).
-
-I used [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) to help create site layout, occasionally referring back to [Grid](https://getbootstrap.com/docs/5.0/layout/grid/) & [Breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/) to help with the layout and responsivity across different screen sizes.
-
-I also used the following components:
-* [Navbar](https://getbootstrap.com/docs/5.0/components/navbar/)
-* [Modal](https://getbootstrap.com/docs/5.0/components/modal/)
-* [Carousel](https://getbootstrap.com/docs/5.0/components/carousel/)
+'James T Chance' quote was taken from the plaque on the Chance Monument inside West Smethwick Park.
 
 Instruction on 'Phone number' input in form section taken from [W3Schools](https://www.w3schools.com/tags/att_input_type_tel.asp).
 
