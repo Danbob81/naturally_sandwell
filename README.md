@@ -159,10 +159,10 @@ Another issue was with the navigation bar where the logo was pushed downwards in
 ### **Validator Testing**
 
 * HTML
-    * 8 errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+    * 7 errors, and one warning, were returned when passing through the official [W3C validator](https://validator.w3.org/)
 ![error one](docs/readme_items/validator_error1.PNG)
 ![error one](docs/readme_items/validator_error2.PNG)
-    * fixed all 8 errors, passed through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanbob81.github.io%2Fnaturally_sandwell%2F) again - no errors found
+    * fixed all 7 errors, and warning, passed through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanbob81.github.io%2Fnaturally_sandwell%2F) again - no errors found
 * CSS
     * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
 
