@@ -452,15 +452,13 @@ hr {
     text-align: center;
     color: #fff;
     background-color: #53e058;
-    border-color: #53e058;
-}
+ }
 
 .btn-green:hover {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     color: #53e058;
     background-color: #fff;
-    border-color: #fff;
 }
 
 
